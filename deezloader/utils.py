@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from mutagen import File
-from Crypto.Hash import MD5
+from Crypto import MD5
 from binascii import a2b_hex, b2a_hex
 from Crypto.Cipher import AES, Blowfish
 from mutagen.id3 import ID3, APIC, USLT, _util
